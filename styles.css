@@ -5,19 +5,23 @@ body {
   width: 100vw;
   min-height: 100vh;
 }
+
 * {
   box-sizing: border-box;
 }
 
-.cat-banner {
-  max-width: 100%;
-  height: auto;
+.navbar-custom {
+  font-family: "Ledger", serif;
+  background-color: #e9fee9;
+  color: #444242;
+  font-size: 24px;
+  padding-right: 0;
 }
 
 .nydalen-clinic {
   position: absolute;
-  left: 800px;
-  top: 169px;
+  left: 750px;
+  top: 200px;
   padding-left: 5px;
   padding-right: 5px;
   height: 257px;
@@ -30,11 +34,11 @@ body {
   font-weight: 400;
   background-color: rgba(233, 254, 233, 0.35);
 }
-.button-location {
-}
+
 .logo {
   height: 100%;
   width: 100%;
+  padding: 20px;
 }
 
 .cat-banner {
@@ -42,28 +46,22 @@ body {
   height: auto;
 }
 
-
-#navbar {
-  background-color: #e9fee9;
-  
-}
-
 .find-clinic {
-  display: flex; /* Use flexbox for layout */
-  justify-content: space-between; /* Push items to the left and right edges */
-  align-items: center; /* Vertically center items */
-  width: 100%; /* Ensure full page width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   min-height: 50vh; /* Optional: Adjust the minimum height */
-  padding: 20px; /* Spacing around the content */
+  padding: 5%; /* Spacing around the content */
   box-sizing: border-box; /* Include padding in width calculation */
+}
+.find-clinic p {
   color: rgba(68, 66, 66, 1);
   text-transform: uppercase;
   font-size: 36px;
   font-family: "Ledger", serif;
   font-style: normal;
   font-weight: 400;
-}
-.find-clinic p {
   flex: 1;
   padding-left: 5%;
   margin: 0; /* Remove default margins for the paragraph */
@@ -78,19 +76,30 @@ body {
   display: flex;
 }
 
-#catphoto {
-  max-width: 100%;
-}
 .button-location {
-  padding: 10px;
+  padding: 3%;
+  border: none;
+  color: #444242;
+  background-color: rgb(217, 255, 217);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Ledger", serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
-.navbar-custom {
-  font-family: "Ledger", serif;
-  background-color: #e9fee9;
-  color: #444242;
-  font-size: 24px;
-  padding-right: 0;
+.button-location:hover {
+  background-color: rgba(68, 66, 66, 1); /* Green */
+  color: rgba(233, 254, 233);
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 footer {
