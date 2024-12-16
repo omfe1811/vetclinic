@@ -45,7 +45,7 @@ body {
   height: auto;
 }
 
-#navbar {
+.navbar {
     background-color: #e9fee9;
 }
 
@@ -53,4 +53,12 @@ body {
 .mapimg {
     width: 100%;
     height: 100%;
+}
+
+.find-clinic {
+  display: flex;
+}
+
+#catphoto {
+  max-width:100%;
 }
