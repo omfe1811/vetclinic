@@ -1,12 +1,11 @@
-/* General Styles */
 body {
   display: flex;
   flex-direction: column;
   background-color: #e9fee9;
   width: 100%;
   min-height: 100vh;
-  margin: 0; /* Remove default margin */
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+  margin: 0;
+  overflow-x: hidden;
 }
 
 * {
@@ -52,12 +51,13 @@ body {
 
 .nydalen-clinic {
   position: absolute;
-  right: 3%; /* Push text to the right side */
+  right: 3%;
   top: 55%;
   transform: translateY(-50%);
   width: 45%;
-  text-align: left; /* Align text to the right */
+  text-align: left;
 }
+
 .logo {
   height: 100%;
   width: 100%;
@@ -74,10 +74,11 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  min-height: 50vh; /* Optional: Adjust the minimum height */
-  padding: 5%; /* Spacing around the content */
-  box-sizing: border-box; /* Include padding in width calculation */
+  min-height: 50vh;
+  padding: 5%;
+  box-sizing: border-box;
 }
+
 .find-clinic p {
   color: rgba(68, 66, 66, 1);
   text-transform: uppercase;
@@ -88,7 +89,6 @@ body {
   box-sizing: border-box;
 }
 
-/* Find Clinic Section - Adjust Button Placement */
 .find-clinic {
   display: flex;
   flex-direction: row;
@@ -133,7 +133,7 @@ body {
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .nydalen-clinic {
-    font-size: 6vw; /* Smaller font size */
+    font-size: 6vw;
     width: 90%;
     text-align: right;
   }
@@ -145,7 +145,7 @@ body {
   }
 
   .left-side {
-    align-items: center; /* Center align text and button */
+    align-items: center;
     text-align: center;
   }
 
