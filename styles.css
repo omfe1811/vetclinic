@@ -12,8 +12,6 @@ body {
 .cat-banner {
   max-width: 100%;
   height: auto;
-  max-width: 100%;
-  height: auto;
 }
 
 .nydalen-clinic {
@@ -45,14 +43,22 @@ body {
   height: auto;
 }
 
-.navbar {
-    background-color: #e9fee9;
+#navbar {
+  background-color: #e9fee9;
 }
 
+.find-clinic {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 20px;
+}
 
-.mapimg {
-    width: 100%;
-    height: 100%;
+#mapimg {
+  width: 50%;
+  height: 50%;
 }
 
 .find-clinic {
