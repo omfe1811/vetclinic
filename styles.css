@@ -70,3 +70,11 @@ body {
   max-width: 50%; /* Restrict image to half of the width */
   height: auto; /* Maintain aspect ratio */
 }
+
+.find-clinic {
+  display: flex;
+}
+
+#catphoto {
+  max-width:100%;
+}
