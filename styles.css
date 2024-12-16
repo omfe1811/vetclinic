@@ -10,7 +10,7 @@ body {
 }
 
 .cat-banner {
-  max-width: auto;
+  max-width: 100%;
   height: auto;
 }
 
@@ -38,9 +38,10 @@ body {
 }
 
 .cat-banner {
-  max-width: 1280px;
+  max-width: auto;
   height: auto;
 }
+
 
 #navbar {
   background-color: #e9fee9;
@@ -89,4 +90,14 @@ body {
   background-color: #e9fee9;
   color: #444242;
   font-size: 24px;
+  padding-right: 0;
+}
+
+footer {
+  text-align: center;
+  height: 50px;
+  background-color: #444242;
+  color: #e9fee9;
+  line-height: 50px;
+  font-family: "Ledger", serif;
 }
