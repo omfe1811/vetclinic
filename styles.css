@@ -1,6 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+* {
+  box-sizing: border-box;
+}
 .cat-banner {
   max-width: 100%;
   height: auto;
   max-width: 100%;
   height: auto;
+}
+
+.nav-link {
+}
+.nydalen-clinic {
+  position: absolute;
+  left: 800px;
+  top: 169px;
+  width: 564px;
+  height: 257px;
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+  color: rgba(68, 66, 66, 1);
+  text-transform: uppercase;
+  font-size: 72px;
+  font-family: "Ledger";
+  font-style: normal;
+  font-weight: 400;
+  background-color: rgba(233, 254, 233, 0.35);
 }
