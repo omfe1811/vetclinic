@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-
+  background-color: #e9fee9;
   width: 100vw;
   min-height: 100vh;
 }
@@ -44,6 +44,7 @@ body {
 
 #navbar {
   background-color: #e9fee9;
+  
 }
 
 .find-clinic {
@@ -77,4 +78,11 @@ body {
 
 #catphoto {
   max-width:100%;
+}
+
+.navbar-custom {
+  font-family: "Ledger", serif;
+  background-color: #e9fee9;
+  color: #444242;
+  font-size: 24px;
 }
