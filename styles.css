@@ -1,7 +1,6 @@
 body {
   display: flex;
   flex-direction: column;
-
   width: 100vw;
   min-height: 100vh;
 }
@@ -36,9 +35,7 @@ body {
 }
 
 .cat-banner {
-  max-width: 100%;
-  height: auto;
-  max-width: 100%;
+  max-width: 1280px;
   height: auto;
 }
 
@@ -63,6 +60,7 @@ body {
 }
 .find-clinic p {
   flex: 1;
+  padding-left: 5%;
   margin: 0; /* Remove default margins for the paragraph */
 }
 #mapimg {
@@ -76,5 +74,5 @@ body {
 }
 
 #catphoto {
-  max-width:100%;
+  max-width: 100%;
 }
