@@ -18,6 +18,11 @@ body {
   color: #444242;
   font-size: 24px;
   padding-right: 0;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  position: -webkit-sticky;
+  z-index: 1;
 }
 
 .logo {
